@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "cIY3Sd6YdtqTRiGL/ruT5mF4X7mZtzB33Z/GJv3hebFaAz2NgvU9PLzTRbgx3im8yE17w5pq/5na38tHU4jutQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VICTO\\source\\repos\\Framework Challenge\\src\\services\\FrameworkChallenge\\FrameworkChallenge.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VICTO\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\VICTO\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\VICTO\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
+    "C:\\Users\\VICTO\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\VICTO\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\VICTO\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\VICTO\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
