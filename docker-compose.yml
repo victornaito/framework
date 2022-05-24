@@ -1,0 +1,32 @@
+version: '3.4'
+
+networks:
+  framework:
+    driver: bridge
+
+services:
+  framework-api:
+    build:
+      context: ./services
+      dockerfile: FrameworkChallenge/Dockerfile
+    hostname: framework-api
+    container_name: framework-api
+    image: framework-api
+    ports:
+      - "5000:80"
+    networks:
+      - framework
+    restart: unless-stopped
+
+  client:
+    build:
+      context: ./web-apps
+      dockerfile: framework-challenge/Dockerfile
+    hostname: framework-client
+    container_name: framework-client
+    image: framework-client
+    ports:
+      - "5001:80"
+    networks:
+      - framework
+    restart: unless-stopped
