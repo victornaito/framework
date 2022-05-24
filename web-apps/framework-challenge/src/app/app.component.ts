@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,7 @@ export class AppComponent implements OnInit {
   }
 
   public getDivisor(number: number) {
-    this.httpClient.get(`https://localhost:49164/Math/divisors/${number}`).subscribe(_ => this.result = _);
+    this.httpClient.get(`${environment.FRAMEWORK_API}/Math/dividers/${number}`).subscribe(_ => this.result = _);
   }
 }
 
