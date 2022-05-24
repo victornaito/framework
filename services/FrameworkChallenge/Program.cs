@@ -1,5 +1,8 @@
+using FrameworkChallenge.API.Application.Queries;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<ICalculatePrimeNumbers, CalculatePrimeNumbers>();
 // Add services to the container.
 
 builder.Services.AddControllers();
