@@ -12,6 +12,14 @@ services:
     hostname: framework-api
     container_name: framework-api
     image: framework-api
+    environment:
+      - ASPNETCORE_URLS=http://+:80
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+        reservations:
+          memory: 100M
     ports:
       - "5000:80"
     networks:
@@ -29,4 +37,6 @@ services:
       - "5001:80"
     networks:
       - framework
+    depends_on:
+      - framework-api
     restart: unless-stopped

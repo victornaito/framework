@@ -1,0 +1,8 @@
+﻿**/dist
+node_modules
+package-lock.json
+
+bin
+obj
+Debug
+.vs
